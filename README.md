@@ -55,7 +55,7 @@ java -jar <jar-location>/mcp-cli-demo-0.0.1-SNAPSHOT.jar weather-forecast-by-loc
       "command": "java",
       "args": [
         "-jar",
-        "-Dspring.profiles.default=mcp",
+        "-Dspring.profiles.active=mcp",
         "<jar-location>/mcp-cli-demo-0.0.1-SNAPSHOT.jar"
       ]
     }
